@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Projet: Optimisez un site web existant
 
 [Visiter le site](https://tem-ctrl.github.io/oc_p4_panthere/) <br>
