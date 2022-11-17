@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projet: Optimisez un site web existant
 
 [Visiter le site](https://tem-ctrl.github.io/oc_p4_panthere/) <br>
@@ -41,3 +42,4 @@ Tu trouveras en pièce jointe une [maquette](https://course.oc-static.com/projec
 Sophie
 
 Sophie Vasseur - Fondatrice de l'agence La Panthère
+
