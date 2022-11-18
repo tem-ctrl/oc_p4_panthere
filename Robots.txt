@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+Allow: /https://tem-ctrl.github.io/oc_p4_panthere/
+Allow: /https://tem-ctrl.github.io/oc_p4_panthere/contact-agence-panthere.html
