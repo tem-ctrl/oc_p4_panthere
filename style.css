@@ -326,9 +326,9 @@ a:hover {
   border-radius: 10px;
 }
 
-.navbar-brand img:hover {
+/* .navbar-brand img:hover {
   border: 2px solid #00000099;
-}
+} */
 
 .navbar-brand img[src$=svg] {
   min-width: 100px;
@@ -702,6 +702,7 @@ a[data-lightbox]:hover img {
 
 .address {
   color: #313030;
+  font-size: 15px;
 }
 
 h1,
