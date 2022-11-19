@@ -326,10 +326,6 @@ a:hover {
   border-radius: 10px;
 }
 
-/* .navbar-brand img:hover {
-  border: 2px solid #00000099;
-} */
-
 .navbar-brand img[src$=svg] {
   min-width: 100px;
 }
