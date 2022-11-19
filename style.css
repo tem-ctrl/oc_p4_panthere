@@ -1196,6 +1196,25 @@ h4 {
     display: inline-block;
   }
 
+  .row.row-no-gutters {
+    display: flex;
+    justify-content: center;
+  }
+
+  .black-background {
+    padding: 40px 0;
+    text-align: justify;
+  }
+
+  .black-background .col-sm-12 {
+    width: 100%;
+  }
+
+  .black-background p{
+    width: 100%;
+    text-align: justify;
+  }
+
   .blocsapp-device-iphone5 {
     background-size: 216px 425px;
     padding-top: 60px;
