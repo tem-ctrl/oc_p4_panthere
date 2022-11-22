@@ -1038,6 +1038,10 @@ h4 {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
   }
+
+  .partners a {
+    padding: 12px 0;
+  }
 }
 
 @media (max-width: 767px) {
