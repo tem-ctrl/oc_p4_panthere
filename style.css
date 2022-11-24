@@ -1270,4 +1270,8 @@ h4 {
     max-height: 80vh;
     margin: 0 auto;
   }
+
+  .bg-presentation {
+  background-image: url("img/image-de-presentation-mobile.webp");
+}
 }
