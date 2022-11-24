@@ -1243,15 +1243,24 @@ h4 {
   }
 }
 
-@media (max-width: 400px) {
+@media all and (max-width: 400px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media (max-width: 767px) {
+@media all and (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+
+  .quote {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .portfolio-thumb {
+    margin: 0 auto;
   }
 }
