@@ -362,7 +362,8 @@ a:hover {
   border-bottom: 2px solid #00000099;
 }
 
-.nav>li a:focus, .navbar-brand img:focus {
+.nav>li a:focus,
+.navbar-brand img:focus {
   border-color: #313030;
   outline: 0;
   -moz-box-shadow: 0 0 8px #313030 !important;
@@ -1217,7 +1218,7 @@ h4 {
     width: 100%;
   }
 
-  .black-background p{
+  .black-background p {
     width: 100%;
     text-align: justify;
   }
@@ -1253,6 +1254,20 @@ h4 {
   }
 
   .portfolio-thumb {
+    margin: 0 auto;
+  }
+
+  #lightbox-modal {
+    max-width: 100%;
+  }
+
+  #lightbox-modal .modal-dialog {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #lightbox-modal .modal-dialog img {
+    max-height: 80vh;
     margin: 0 auto;
   }
 }
