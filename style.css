@@ -1,6 +1,8 @@
 :root {
-  --color-primary: #df563e;
+  --color-primary: #d43c21;
+  --color-secondary-bg: #2a2b2d;
   --color-secondary: #0b1537;
+  --color-footer-bg: #ee553a;
 }
 
 body {
@@ -560,13 +562,16 @@ button {
   width: 40px;
   height: 40px;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   bottom: 20px;
   right: 20px;
   opacity: 0;
   z-index: 500;
   transition: all .3s ease-in-out;
   background-color: var(--color-primary);
-  border: 2px solid var(--color-secondary);
+  border: 3px solid var(--color-secondary);
 }
 
 .scrollToTop:hover {
@@ -574,7 +579,6 @@ button {
 }
 
 .scrollToTop span {
-  margin-top: 6px;
   color: #fff;
 }
 
@@ -761,19 +765,22 @@ p {
   font-weight: 700;
 }
 
-.social {
+.socials {
   max-width: 400px;
   margin: auto;
 }
 
 .footer .fa {
   color: rgba(255, 255, 255) !important;
-  padding: 6px;
-  border: solid 3px var(--color-primary);
+  width: 40px;
+  height: 40px;
+  padding-top: 3px;
+  border: solid 3px var(--color-footer-bg);
   border-radius: 5px;
 }
 
-.footer .fa:hover {
+.footer .fa:hover,
+.footer .fa:focus {
   border: var(--color-secondary) solid 3px;
   color: var(--color-secondary) !important;
 }
@@ -803,7 +810,7 @@ p {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 1.4em;
 }
@@ -852,13 +859,17 @@ h4 {
 }
 
 .black-background {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-bg);
   padding: 40px;
 }
 
 .mg-auto {
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  background-color: var(--color-footer-bg) !important;
 }
 
 .footer .row-no-gutters,
@@ -913,13 +924,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background-color: #c84d37;
+  background-color: var(--color-primary);
   color: #FFFFFF !important;
   border: solid 2px var(--color-primary);
 }
 
 .sr-only {
-  color: #737373;
+  color: #000;
 }
 
 .btn-atomic-tangerine:hover,
@@ -927,7 +938,7 @@ h4 {
   background: #f7f1f1 !important;
   color: var(--color-secondary) !important;
   text-decoration: underline;
-  border: solid 2px var(--color-secondary);
+  border: solid 2px var(--color-secondary-bg);
 }
 
 .ltc-white {
