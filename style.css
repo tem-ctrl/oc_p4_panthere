@@ -316,6 +316,7 @@ a:hover {
   font-weight: normal;
   font-weight: 600;
   line-height: 44px;
+  cursor: pointer;
 }
 
 .navbar-brand img {
@@ -1273,5 +1274,9 @@ h4 {
 
   .bg-presentation {
   background-image: url("img/image-de-presentation-mobile.webp");
+  }
+
+  .bg-banniere {
+  background-image: url("img/agence-la-panthere-mobile.webp");
   }
 }
