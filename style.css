@@ -396,6 +396,305 @@ a:hover {
   position: relative;
   z-index: 2;
 }
+@media all and (max-width: 1024px) {
+  .bloc {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bloc.full-width-bloc,
+  .bloc-tile-2.full-width-bloc .container,
+  .bloc-tile-3.full-width-bloc .container,
+  .bloc-tile-4.full-width-bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+  .navbar .nav {
+    max-width: 80%
+  }
+
+  .nav-center.navbar .nav {
+    max-width: 100%
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .b-parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .b-parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+
+  .b-parallax {
+    background-attachment: scroll;
+  }
+
+  .page-container,
+  #hero-bloc {
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .bloc-group,
+  .bloc-group .bloc {
+    display: block;
+    width: 100%;
+  }
+
+  .bloc-fill-screen .fill-bloc-top-edge,
+  .bloc-fill-screen .fill-bloc-bottom-edge {
+    padding: 0 20px;
+  }
+
+  .partners a {
+    padding: 16px 8px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .page-container {
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  #disqus_thread {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .b-parallax {
+    background-attachment: scroll;
+  }
+
+  .navbar .nav {
+    padding-top: 0;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    float: none !important;
+  }
+
+  .navbar.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .site-navigation {
+    position: inherit;
+    transform: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+  }
+
+  .nav>li {
+    margin-top: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .05);
+    text-align: left;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .nav>li:hover {
+    background: rgba(0, 0, 0, .08);
+  }
+
+  .dropdown .dropdown a .caret {
+    float: none;
+    margin: 5px 0 0 10px !important;
+    border: 4px solid black;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+
+  #hero-bloc .navbar .nav {
+    background: rgba(0, 0, 0, .8);
+  }
+
+  #hero-bloc .navbar .nav a {
+    color: rgba(255, 255, 255, .6);
+  }
+
+  .hero {
+    padding: 50px 0;
+  }
+
+  .hero-nav {
+    left: -1px;
+    right: -1px;
+  }
+
+  .navbar-collapse {
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .navbar-brand img {
+    max-height: 40px;
+    width: auto;
+  }
+
+  .nav-invert .navbar-header {
+    float: none;
+    width: 100%;
+  }
+
+  .nav-invert .navbar-toggle {
+    float: left;
+    margin-left: 10px;
+  }
+
+  .bloc {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bloc-xxl,
+  .bloc-xl,
+  .bloc-lg {
+    padding: 40px 0;
+  }
+
+  .bloc-sm,
+  .bloc-md {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bloc-tile-2 .container,
+  .bloc-tile-3 .container,
+  .bloc-tile-4 .container,
+  .bloc-fill-screen .fill-bloc-top-edge,
+  .bloc-fill-screen .fill-bloc-bottom-edge {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .a-block {
+    padding: 0 10px;
+  }
+
+  .btn-dwn {
+    display: none;
+  }
+
+  .voffset {
+    margin-top: 5px;
+  }
+
+  .voffset-md {
+    margin-top: 20px;
+  }
+
+  .voffset-lg {
+    margin-top: 30px;
+  }
+
+  form {
+    padding: 5px;
+  }
+
+  .close-lightbox {
+    display: inline-block;
+  }
+
+  .row.row-no-gutters {
+    display: flex;
+    justify-content: center;
+  }
+
+  .black-background {
+    padding: 40px 0;
+    text-align: justify;
+  }
+
+  .black-background .col-sm-12 {
+    width: 100%;
+  }
+
+  .black-background p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .blocsapp-device-iphone5 {
+    background-size: 216px 425px;
+    padding-top: 60px;
+    width: 216px;
+    height: 425px;
+  }
+
+  .blocsapp-device-iphone5 img {
+    width: 180px;
+    height: 320px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .bloc {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .bloc-mob-center-text {
+    text-align: center;
+  }
+
+  .quote {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .portfolio-thumb {
+    margin: 0 auto;
+  }
+
+  #lightbox-modal {
+    max-width: 100%;
+  }
+
+  #lightbox-modal .modal-dialog {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #lightbox-modal .modal-dialog img {
+    max-height: 80vh;
+    margin: 0 auto;
+  }
+
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-mobile.webp");
+  }
+
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere-mobile.webp");
+  }
+}
 
 @media all and (min-width: 768px) {
   .site-navigation {
@@ -981,302 +1280,3 @@ h4 {
   background-image: url("img/image-de-presentation.webp");
 }
 
-@media all and (max-width: 1024px) {
-  .bloc {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .bloc.full-width-bloc,
-  .bloc-tile-2.full-width-bloc .container,
-  .bloc-tile-3.full-width-bloc .container,
-  .bloc-tile-4.full-width-bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media all and (max-width: 992px) and (min-width: 768px) {
-  .navbar .nav {
-    max-width: 80%
-  }
-
-  .nav-center.navbar .nav {
-    max-width: 100%
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .b-parallax {
-    background-attachment: scroll;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .b-parallax {
-    background-attachment: scroll;
-  }
-}
-
-@media all and (max-width: 991px) {
-  .container {
-    width: 100%;
-  }
-
-  .b-parallax {
-    background-attachment: scroll;
-  }
-
-  .page-container,
-  #hero-bloc {
-    overflow-x: hidden;
-    position: relative;
-  }
-
-  .bloc-group,
-  .bloc-group .bloc {
-    display: block;
-    width: 100%;
-  }
-
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: 0 20px;
-  }
-
-  .partners a {
-    padding: 16px 8px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .page-container {
-    overflow-x: hidden;
-    position: relative;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  #disqus_thread {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
-
-  .b-parallax {
-    background-attachment: scroll;
-  }
-
-  .navbar .nav {
-    padding-top: 0;
-    border-top: 1px solid rgba(0, 0, 0, .2);
-    float: none !important;
-  }
-
-  .navbar.row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .site-navigation {
-    position: inherit;
-    transform: none;
-    -webkit-transform: none;
-    -ms-transform: none;
-  }
-
-  .nav>li {
-    margin-top: 0;
-    border-bottom: 2px solid rgba(0, 0, 0, .1);
-    background: rgba(0, 0, 0, .05);
-    text-align: left;
-    padding-left: 15px;
-    width: 100%;
-    padding-bottom: 15px;
-  }
-
-  .nav>li:hover {
-    background: rgba(0, 0, 0, .08);
-  }
-
-  .dropdown .dropdown a .caret {
-    float: none;
-    margin: 5px 0 0 10px !important;
-    border: 4px solid black;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    border-left-color: transparent;
-  }
-
-  #hero-bloc .navbar .nav {
-    background: rgba(0, 0, 0, .8);
-  }
-
-  #hero-bloc .navbar .nav a {
-    color: rgba(255, 255, 255, .6);
-  }
-
-  .hero {
-    padding: 50px 0;
-  }
-
-  .hero-nav {
-    left: -1px;
-    right: -1px;
-  }
-
-  .navbar-collapse {
-    padding: 0;
-    overflow-x: hidden;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-
-  .navbar-brand img {
-    max-height: 40px;
-    width: auto;
-  }
-
-  .nav-invert .navbar-header {
-    float: none;
-    width: 100%;
-  }
-
-  .nav-invert .navbar-toggle {
-    float: left;
-    margin-left: 10px;
-  }
-
-  .bloc {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .bloc-xxl,
-  .bloc-xl,
-  .bloc-lg {
-    padding: 40px 0;
-  }
-
-  .bloc-sm,
-  .bloc-md {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .bloc-tile-2 .container,
-  .bloc-tile-3 .container,
-  .bloc-tile-4 .container,
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .a-block {
-    padding: 0 10px;
-  }
-
-  .btn-dwn {
-    display: none;
-  }
-
-  .voffset {
-    margin-top: 5px;
-  }
-
-  .voffset-md {
-    margin-top: 20px;
-  }
-
-  .voffset-lg {
-    margin-top: 30px;
-  }
-
-  form {
-    padding: 5px;
-  }
-
-  .close-lightbox {
-    display: inline-block;
-  }
-
-  .row.row-no-gutters {
-    display: flex;
-    justify-content: center;
-  }
-
-  .black-background {
-    padding: 40px 0;
-    text-align: justify;
-  }
-
-  .black-background .col-sm-12 {
-    width: 100%;
-  }
-
-  .black-background p {
-    width: 100%;
-    text-align: justify;
-  }
-
-  .blocsapp-device-iphone5 {
-    background-size: 216px 425px;
-    padding-top: 60px;
-    width: 216px;
-    height: 425px;
-  }
-
-  .blocsapp-device-iphone5 img {
-    width: 180px;
-    height: 320px;
-  }
-}
-
-@media all and (max-width: 400px) {
-  .bloc {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .bloc-mob-center-text {
-    text-align: center;
-  }
-
-  .quote {
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  .portfolio-thumb {
-    margin: 0 auto;
-  }
-
-  #lightbox-modal {
-    max-width: 100%;
-  }
-
-  #lightbox-modal .modal-dialog {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  #lightbox-modal .modal-dialog img {
-    max-height: 80vh;
-    margin: 0 auto;
-  }
-
-  .bg-presentation {
-  background-image: url("img/image-de-presentation-mobile.webp");
-  }
-
-  .bg-banniere {
-  background-image: url("img/agence-la-panthere-mobile.webp");
-  }
-}
