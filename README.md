@@ -43,7 +43,7 @@ Tu l’imagines, tous ces éléments devront être codés en HTML et CSS. Fais �
 
 Voilà, je crois que j’ai fait le tour ! N’hésite pas si tu as la moindre question.
 
-Tu trouveras en pièce jointe une [maquette](https://course.oc-static.com/projects/DW_P4/DW+P4+sources+site+La+Panthere.zip) de notre site en son état actuel.
+Tu trouveras en pièce jointe une [maquette](assets/DW+P4+sources+site+La+Panthere.zip) de notre site en son état actuel.
 
 Sophie
 
